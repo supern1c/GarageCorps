@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Garage Corps</title>
+    <link rel="shortcut icon" href="img/icon.png">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="img/logo.png" alt="" width="150px;">
+        </div>
+        <!-- logo -->
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="store.html">STORE</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </div>
+        <!-- menu -->
+    </div>
+    <!-- header -->
+    <div class="carousel">
+            <img src="img/GBC.jpg" alt="" width="1295px" height="600px">
+            <img src="img/HD.jpg" alt="" width="1295px" height="600px">
+            <img src="img/FR.jpg" alt="" width="1295px" height="600px">
+            <img src="img/RE.jpg" alt="" width="1295px" height="600px">
+    </div>
+    <!-- keresel -->
+    <div class="konten">  
+        <div class="isi1">
+            <h2>WELCOME TO GARAGE CORPS</h2>
+            <hr>
+            <h3>RIDE FOR PRIDE</h3>
+        </div>
+        <!-- isi -->
+        <div class="isi2">
+            <p>Old But Gold, All about classic automotive available here</p> 
+        </div>
+        <!-- isi2 -->
+        <div class="isi3">
+            <div class="box1">
+                <img src="img/1969-Boss-429-Mustang.jpg" alt="" width="379px">
+                <h3>Mustang 1969</h3>
+                <p>The 1969 model year restyle "added more heft to the body" with body length extended by 3.8 inches (97 mm) (the wheelbase remaining at 108 inches), width increased by almost half an inch, and the Mustang's "weight went up markedly too."[51] 1969 was the first model to use quad headlamps placed both inside and outside the grille opening. </p>
+            </div>
+            <!-- box1 -->
+            <div class="box2">
+                <img src="img/cb77.jpg" alt="" width="300px">
+                <h3>Honda CB77</h3>
+                <p>The CB77, or Superhawk, is sportbike genesis for Honda. The 305cc parallel twin powering the CB77 could freely rev to nine grand and easily send riders over the ton (100 MPH) set by the British big twins</p>
+            </div>
+            <!-- box2 -->
+            <div class="box3">
+                <img src="img/HDSportster.jpg" alt="" width="300px">
+                <h3>Harley Davidson Sportster</h3>
+                <p>the market since 1957. Originally intended for flat-track racing, the fast and nimble Sporty found favor with riders seeking speed over the comforts usually afforded by Milwaukee’s finest. Harley Davidson has smartly done very little with the Sportster recipe. Power has always come in the form of a 45-degree V-Twin which was, until 2004, rigidly mounted to deliver its signature responsive ride. With a factory-forged variant to suit almost every style (five different versions are currently available) and Harley’s typically limitless catalogue of bolt-ons, the success of the Sportster should keep thundering on.</p>
+            </div>
+            <!-- box3 -->
+        </div>
+        <!-- isi3 -->
+        </div>
+        <!-- konten -->
+        <div class="footer">
+           <img src="img/logo.png" alt="" width="100px" height="70px">
+            <div class="kaki">
+                    <p>&copy; 2018 | Garage Corps</p>
+                <p>Created by Nico Ari Novriantoro | XI RPL 2</p>
+            </div>
+        </div>
+        <!-- footer -->
+    <script>
+        $(".carousel > img:gt(0)").hide();
+
+        setInterval(function() { 
+        $('.carousel > img:first')
+        .fadeOut(1000)
+        .next()
+        .fadeIn(1000)
+        .end()
+        .appendTo('.carousel');
+        },  3000);
+    </script>
+</body>
+</html>

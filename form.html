@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Garage Corps</title>
+    <link rel="shortcut icon" href="img/icon.png">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="img/logo.png" alt="" width="150px;">
+        </div>
+        <!-- logo -->
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="store.html">STORE</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </div>
+        <!-- menu -->
+    </div>
+    <!-- header -->
+    <div class="form">
+        <div class="fm">
+            <h3>ORDER FORM</h3>
+            <hr>
+        </div>
+        <!-- fm -->
+        <div class="of">
+            <form action="">
+                <ul>
+                    <li>
+                        <label for="Name">Name</label>
+                        <input class="form-control" type="text" name="" id="Name">
+                    </li>
+                    <li>
+                        <label for="Address">Address</label>
+                        <input class="form-control" type="text" name="" id="Address">
+                    </li>
+                    <li>
+                        <label for="Country">Country</label>
+                        <select class="form-control" name="country" id="">
+                            <option value="Indonesia">Indonesia</option>
+                            <option value="United State">United State</option>
+                            <option value="Russia">Russia</option>
+                            <option value="Germany">Germany</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="Post-Code">Post Code</label>
+                        <input class="form-control" type="text" name="" id="Post-Code">
+                    </li>
+                    <li>
+                        <label for="Phone">Phone</label>
+                        <input class="form-control" type="text" name="" id="Phone">
+                    </li>
+                    <li>
+                        <label for="Email">Email</label>
+                        <input class="form-control" type="text" name="" id="Email">
+                    </li>
+                    <li>
+                        <label for="pay">Payment Method</label>
+                        
+                        <div class="form-check-inline">
+                            <input class="form-check-input" type="radio" name="payment" id="pp"><img src="img/paypal.png"   alt="" width="50px">
+                        </div>
+                        
+                        <div class="form-check-inline">
+                            <input class="form-check-input" type="radio" name="payment" id="mc"><img src="img/mc.png"   alt="" width="70px">
+                        </div>    
+                    </li>
+                    <li>
+                        <a href="">
+                            <button type="button" class="btn-order" onclick="order()" id="pesan">Order Now</button>
+                        </a>
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <!-- of -->
+    </div>
+    <!-- form -->
+    <div class="footer">
+            <img src="img/logo.png" alt="" width="100px" height="70px">
+            <div class="kaki">
+                <p>&copy; 2018 | Garage Corps</p>
+                <p>Created by Nico Ari Novriantoro | XI RPL 2</p>
+            </div>
+        </div>
+    <!-- footer -->
+
+    <script>
+        function order() {
+            document.getElementById("pesan");
+            confirm("Thanks For Order");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,319 @@
+body{
+    background-color: #bbb6b6;
+}
+
+.header{
+    
+    background-color: #000000;
+    
+}
+
+.logo{
+    text-align: center;
+
+}
+
+.menu{
+    background-color: gold;
+}
+
+.menu ul li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px 20px;
+}
+
+.menu ul li a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu ul li:hover a{
+    color: red;
+}
+
+.carousel {
+    margin: 0px 20px;
+    overflow: hidden;
+}
+
+.carousel > img { 
+    position: absolute;
+}
+
+.konten{
+    margin: 620px 20px 0px;
+}
+
+.isi1{
+    text-align: center;
+}
+
+.isi1 hr{
+    width: 340px;
+    border: 2px solid #000000;
+}
+
+.isi2{
+    text-align: center;
+}
+
+.isi3{
+    display: flex;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.box2{
+    margin: 0px 150px 0px 150px;
+}
+
+.box3{
+    margin: 0px 10px;
+}
+
+.store{
+    margin: 0px 20px;
+}
+
+.mtr{
+    text-align: center;
+}
+
+.mtr hr{
+    width: 340px;
+    border: 2px solid #000000;
+}
+
+.btn-buy{
+    background-color: gold;
+    border-radius: 30px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.btn-buy:hover{
+    background-color: red;
+}
+
+.koleksi{
+    display: flex;
+    text-align: center;
+    margin: 30px 0px 0px;
+}
+
+.oto1{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.oto2{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0px 10px;
+}
+
+.oto3{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0px 10px 0px 0px;
+}
+
+.oto4{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.koleksi2{
+    display: flex;
+    text-align: center;
+    margin: 10px 0px 0px;
+}
+
+.koleksi3{
+    display: flex;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.mbl{
+    text-align: center;
+}
+
+.mbl hr{
+    width: 320px;
+    border: 2px solid #000000;
+}
+
+.mobil{
+    display: flex;
+    text-align: center;
+    margin: 30px 0px 0px;
+}
+
+.mbl1{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.mbl2{
+    background-color: #fff;
+    padding: 7px;
+    border-radius: 8px;
+    margin: 0px 10px;
+}
+
+.mbl3{
+    background-color: #fff;
+    padding: 7px;
+    border-radius: 8px;
+    margin: 0px 10px 0px 0px;
+
+}
+
+.mbl4{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    
+}
+
+.form{
+    margin: 0px 20px;
+}
+
+.fm{
+    text-align: center;
+}
+
+.fm hr{
+    width: 220px;
+    border: 2px solid #000000;
+}
+
+.of{
+    margin: 30px 0px;
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.of form ul li{
+    list-style: none;
+}
+
+.of form ul li label{
+    display: block;
+    margin: 10px 0px;
+}
+
+#order{
+    margin: 20px 0px 0px;
+    width: 190px;
+    background-color: gold;
+    border-radius: 8px;
+}
+
+#order:hover{
+    background-color: red;
+}
+
+.form-control{
+    display: block;
+    width: 50%;
+    height: calc(2.25rem + 2px);
+    margin: 0px 300px;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-check-input{
+    position: absolute;
+    margin-top: 0.3rem;
+    margin-left: -1.25rem;
+}
+
+.form-check-inline {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 0;
+    margin-right: 0.75rem;
+    margin: 0px 30px;
+}
+
+.btn-order{
+    margin: 20px 0px 0px 0px;
+    background-color: gold;
+    width: 200px;
+    height: 50px;
+    border-radius: 8px 9px;
+}
+
+.btn-order:hover{
+    background-color: red;
+}
+
+.ttg{
+    text-align: center;
+    padding: 0px 30px;
+}
+
+.ttg hr{
+    width: 320px;
+    border: 1px solid #000000;
+}
+
+.ttg p{
+    padding: 0px 20px;
+    font-size: 20px;
+}
+
+.bio{
+    background-color: #dbd7d7;
+    margin: 0px 90px;
+    padding: 20px 100px;
+    display: flex;
+}
+
+.data{
+    background-color: #dbd7d7;
+    padding: 0px 0px 0px 150px;
+    text-align: center;
+}
+
+.data hr{
+    width: 400px;
+    border: 1px solid #000000;
+}
+
+.data ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 80px 20px 0px;
+}
+
+.footer{
+    display: flex;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    margin: 25px 0px;
+}
+
+.kaki{
+    margin: 0px 40px;
+}
